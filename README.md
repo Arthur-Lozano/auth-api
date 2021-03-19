@@ -1,4 +1,4 @@
-# basic-auth
+# Auth-Api
 
 # LAB - Class 8
 
