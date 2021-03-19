@@ -2,10 +2,10 @@
 
 const fs = require('fs');
 const express = require('express');
-const Collection = require('../models/data-collection.js');
+const Collection = require('../auth/models/data-collection');
 
-const capabilities = require('../auth/middleware/acl');
-const bearer = require('../auth/middleware/bearer');
+const permissions = require('../auth/middleware/acl');
+const bearerAuth = require('../auth/middleware/bearer');
 
 const v2 = express.Router();
 
